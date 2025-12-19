@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-## 📋 Project Overview
+## Project Overview
 
 This project classifies urban land-use types using **social media data** (Twitter/X) combined with **machine learning** and **geospatial analysis**. The workflow includes:
 
@@ -23,7 +23,7 @@ This project classifies urban land-use types using **social media data** (Twitte
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### 1. Edit `config.py`
 Set your API token and file paths:
@@ -72,7 +72,7 @@ KEYWORDS = ["House", "Shop", "School", "Hospital", "Park", ...]
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Step 1: Collect Tweet Data
 ```bash
@@ -107,23 +107,8 @@ python src/geo_visualizer.py
 
 ---
 
-## 📊 Data Flow
 
-```
-Twitter API
-    ↓
-tweet_collector.py (streaming pipeline)
-    ↓
-tweets_data.csv (cleaned, geocoded)
-    ↓
-geo_visualizer.py (12 visualizations)
-    ↓
-maps/ (PNG output with city boundary overlay)
-```
-
----
-
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 urban-land-use-analysis/
@@ -158,26 +143,7 @@ urban-land-use-analysis/
 
 ---
 
-## 🔑 API Configuration
-
-### Twitter API Token
-1. Visit [developer.twitter.com](https://developer.twitter.com/)
-2. Create a new project and app
-3. Generate "Bearer Token" from Keys & Tokens
-4. Add to `config.py`:
-   ```python
-   TWITTER_API_TOKEN = "your_bearer_token_here"
-   ```
-
-### Alternative Authentication Methods
-The collector automatically falls back to alternative auth methods:
-- X-API-Key header
-- Direct token
-- Token authorization header
-
----
-
-## 📍 Shapefile Setup
+## Shapefile Setup
 
 ### Finding Shapefiles
 - [Natural Earth Data](https://www.naturalearthdata.com/)
@@ -203,7 +169,7 @@ SHAPEFILE_PATH = None  # Will skip boundary overlay
 
 ---
 
-## 📈 Output Examples
+## Output Examples
 
 ### KDE Heatmap
 Shows density concentration areas - useful for identifying major activity zones.
@@ -219,7 +185,7 @@ Regular hexagons for consistent spatial aggregation (recommended for statistics)
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Issue: "Module not found" error
 ```bash
@@ -249,35 +215,8 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Citation
 
-If you use this project in research, please cite:
-
-```bibtex
-@software{urban_landuse_2025,
-  author = {Your Name},
-  title = {Urban Land-Use Classification Using Social Media Data},
-  year = {2025},
-  url = {https://github.com/yourusername/urban-land-use-analysis}
-}
-```
-
-Or cite the research paper:
-```
-Author, A., & Author, B. (2025). Social media-based urban land-use 
-classification using zero-shot topic modeling. Journal of Geospatial 
-Analysis, 15(3), 234-256.
-```
-
----
-
-## 📝 License
-
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
-
----
-
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how to help:
 
@@ -297,7 +236,7 @@ We welcome contributions! Here's how to help:
 
 ---
 
-## 🐛 Bug Reports
+## Bug Reports
 
 Found a bug? [Open an issue](../../issues) with:
 - Python version & OS
@@ -307,31 +246,11 @@ Found a bug? [Open an issue](../../issues) with:
 
 ---
 
-## 📧 Contact & Support
+## Contact & Support
 
-**Author:** Your Name  
+**Author:** Ravi Satyappa Dabbanavar, Dr. Arindam Biswas 
 **Institution:** Indian Institute of Technology Roorkee (IITR)  
-**Email:** yourname@iitr.ac.in  
-**Research Area:** Geospatial Analysis, Social Media Mining, Urban Computing
+**Email:** rs_dabbanavar@ar.iitr.ac.in  
+**Research Area:** Geospatial Analysis, Social Media Mining, Urban Computing, Big data
 
----
 
-## 🙏 Acknowledgments
-
-- Twitter API for providing access to social data
-- GeoPandas team for geospatial tools
-- IITR for research support
-
----
-
-## 📖 References
-
-1. Arribas-Bel, D., et al. (2021). Open data products as foundation for creating value in smart cities. *Future Internet*, 13(3), 77.
-2. Hasan, S., et al. (2019). Real-time estimation of near-future urban mobility. *Transportation Research Part C*, 107, 44-60.
-3. Hochman, N., & Manovich, L. (2013). Zooming into Instagram. *First Monday*, 18(7).
-
----
-
-**⭐ If you find this project helpful, please star it!**
-
-Last Updated: December 2025
