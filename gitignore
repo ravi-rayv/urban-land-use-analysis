@@ -1,0 +1,69 @@
+# Credentials
+config_local.py
+*.env
+.env
+
+# Data files (too large for Git)
+data/output/
+data/raw/
+data/input/shapefiles/
+*.csv
+*.xlsx
+*.json
+
+# Maps and visualizations
+*.png
+*.jpg
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.temp
+
+# OS files
+Thumbs.db
+.DS_Store
