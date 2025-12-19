@@ -248,9 +248,8 @@ Found a bug? [Open an issue](../../issues) with:
 
 ## Contact & Support
 
-**Author:** Ravi Satyappa Dabbanavar, Dr. Arindam Biswas 
+**Author:** Mr. Ravi Satyappa Dabbanavar, Dr. Arindam Biswas
+
 **Institution:** Indian Institute of Technology Roorkee (IITR)  
-**Email:** rs_dabbanavar@ar.iitr.ac.in  
+**Email:** rs_dabbanavar@ar.iitr.ac.in, arindam.biswas@ar.iitr.ac.in 
 **Research Area:** Geospatial Analysis, Social Media Mining, Urban Computing, Big data
-
-
