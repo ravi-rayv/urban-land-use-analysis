@@ -14,12 +14,12 @@ This project classifies urban land-use types using **social media data** (Twitte
 4. **Analysis** - Identify land-use characteristics from social signals
 
 ### Key Features
-- ✅ Streaming data pipeline (memory-efficient batch processing)
-- ✅ Multi-authentication fallback (Bearer, X-API-Key, Direct Token)
-- ✅ 12 geospatial visualization types (KDE, Voronoi, IDW, hexbin, etc.)
-- ✅ City boundary overlay with customizable styling
-- ✅ Modular, configurable architecture
-- ✅ Production-ready error handling
+- Streaming data pipeline (memory-efficient batch processing)
+- Multi-authentication fallback (Bearer, X-API-Key, Direct Token)
+- 12 geospatial visualization types (KDE, Voronoi, IDW, hexbin, etc.)
+- City boundary overlay with customizable styling
+- Modular, configurable architecture
+- Production-ready error handling
 
 ---
 
